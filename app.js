@@ -403,3 +403,65 @@
 // }
 
 // console.log(baho);
+
+// Case2. Oy raqamini berilgan. Kiritilgan oy qaysi faslga tegishli ekanligini chiqaruvchi programma tuzilsin. (Masalan: 2 chi oy, "qish")
+
+// let oy = +prompt("oy raqamini krting");
+// let fslar = "";
+// switch (oy) {
+//   case 12:
+//   case 2:
+//   case 1:
+//     fslar = "qish";
+//     break;
+//   case 3:
+//   case 4:
+//   case 5:
+//     fslar = "bahor";
+//     break;
+//   case 6:
+//   case 7:
+//   case 8:
+//     fslar = "yoz";
+//     break;
+//   case 9:
+//   case 10:
+//   case 11:
+//     fslar = "kuz";
+//     break;
+//   default:
+//     fslar = "bunday fasil mavjud emas";
+// }
+
+// console.log(fslar);
+
+// Case3. Oy raqami berilgan. Shu oyda nechta kun borligini aniqlovchi programma tuzilsin.
+
+// let oy = +prompt("Bu yerda 1 dan 12 gacha bo'lgan oy raqami.");
+// let kunlar = "";
+
+// switch (oy) {
+//   case 1:
+//   case 3:
+//   case 5:
+//   case 7:
+//   case 8:
+//   case 10:
+//   case 12:
+//     kunlar = 31;
+//     break;
+//   case 4:
+//   case 6:
+//   case 9:
+//   case 11:
+//     kunlar = 30;
+//     break;
+//   case 2:
+//     kunlar = 28;
+//     break;
+//   default:
+//     kunlar = "bunday oy raqmi mavjud emas";
+// }
+// console.log(`kunlar bor: ${kunlar}`);
+
+// Case4. Uzinlik birliklari quyidagi tartibda berilgan. 1-desimetr, 2-kilometr, 3-metr, 4-millimeter, 5- santimetr. Uzunlik birligini bildiruvchi son berilgan (1 - 5 oraliqda) va shu birlikdagi kesma uzunligi berilgan (haqiqiy son). Kesmaning uzunligini metrlarda ifodalofchi programma tuzilsin.
